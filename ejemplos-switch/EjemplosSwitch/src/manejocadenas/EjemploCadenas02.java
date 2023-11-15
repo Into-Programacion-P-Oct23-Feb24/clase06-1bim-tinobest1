@@ -17,13 +17,15 @@ public class EjemploCadenas02 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         String cadenaFinal = "Datos Ingresados\n";
-        
+        // Scanner nos permite trabjar con datos y representarlos por teclado
+        // utilizar p
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
         
-        
+        //
         cadenaFinal = String.format("%sCiudad:%s\n",
                 cadenaFinal, ciudad);
+      // System.out.printf("\s\n" , cadenafinal);
         
         System.out.println("Ingrese la provincia");
         String provincia = entrada.nextLine(); // 
@@ -32,7 +34,7 @@ public class EjemploCadenas02 {
                 cadenaFinal,
                 provincia);
         
-        System.out.println("Ingrese la país");
+        System.out.println("Ingrese el país");
         String pais = entrada.nextLine(); // 
         
         cadenaFinal = String.format("%sPaís:%s\n",  
@@ -40,5 +42,8 @@ public class EjemploCadenas02 {
                 pais);
         
         System.out.printf("%s", cadenaFinal);
-    }
+    }   
+      
+   // Este ejercicio nos permitara trabajar con furuos proyectos como adjuntador
+   // de archivos
 }

@@ -15,6 +15,7 @@ public class Ejemplo02 {
         String pais;
         
         pais = "Ecuador";
+                //char me permite representar un caracter especifico de una variable tipo cadena   
         char letra = pais.charAt(0);
         System.out.printf("%s\n", letra);
         

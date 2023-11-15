@@ -14,9 +14,12 @@ public class EjemploCadenas {
         String ciudad = "loJa";
         ciudad = ciudad.toUpperCase();
         System.out.printf("%s\n", ciudad.toLowerCase());
-        System.out.printf("%s\n", ciudad.toUpperCase());
+       // System.out.printf("%s\n", ciudad.toUpperCase());
         System.out.printf("%s\n", ciudad);
         
-        
+        // toUpperCase es el metedo de tipo cadena que nos permite convertir la
+        // varible en mayusculas
+        // toLowerCase es el metodo de tipo cadena que nos permite covertir una 
+        // viriable en minisculas
     }
 }
